@@ -1,3 +1,17 @@
 import { Routes } from '@angular/router';
+import { Sonya } from './sonya/sonya';
+import { Olya } from './olya/olya';
+import { Cake } from './cake/cake';
+import { Katya } from './katya/katya';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    {
+        path: '',
+        component: Sonya,
+        children: [
+            {path: 'olya', component: Olya},
+            {path: 'cake', component: Cake},
+            {path: 'katya', component: Katya}
+        ],
+    },
+];
