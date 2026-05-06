@@ -12,7 +12,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 90%;
-    height: 50px;
+    height: 55px;
     border: 3px solid beige;
     border-radius: 20px;
 }
@@ -21,9 +21,11 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
+    transition: 0.2s;
 }
 nav a:hover {
     color: #610c25;
+    transform: scale(1.1);
 }
 .layout {
     position: relative;
@@ -48,5 +50,9 @@ nav a:hover {
 }
 .logo {
     width: auto;
-    height: 40px;
+    height: 45px;
+    transition: 0.2s;
+}
+.logo:hover {
+    transform: scale(1.1);
 }

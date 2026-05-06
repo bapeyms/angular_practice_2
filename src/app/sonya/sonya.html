@@ -1,8 +1,9 @@
 <div class="layout">
-    <div id="background-photo"></div>
+    <div id="background-photo" [ngClass]="currentRoute"></div>
     <header>
         <nav>
             <a routerLink="/logo"><img src="/logo.webp"  class="logo"></a>
+            <a routerLink="/marinaHawaiiTravel">Marina Hawaii Travel</a>
             <a routerLink="/howToGetToTheHawaii">How To Get To The Hawaii</a>
             <a routerLink="/contacts">Contacts</a>
         </nav>

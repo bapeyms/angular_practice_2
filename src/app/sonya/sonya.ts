@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet, NavigationEnd} from '@angular/router';
 
 @Component({
   selector: 'app-sonya',
@@ -8,9 +8,15 @@ import { Router, RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './sonya.css',
 })
 export class Sonya {
-  constructor(public router: Router) {}
 
-  get isHome() :boolean {
-    return this.router.url === '/' || this.router.url === ''
+  currentRoute = '';
+
+  constructor(public router: Router) {
+    this.router.events.subscribe(event =>
+      if(event instanceof NavigationEnd) {
+        this.currentRoute = this.router.url
+      }
+    )
   }
+
 }
