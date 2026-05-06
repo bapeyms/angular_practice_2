@@ -9,7 +9,7 @@ export const routes: Routes = [
         path: '',
         component: Sonya,
         children: [
-            {path: 'marinaHawaiiTravel', component: Olya},
+            {path: '', component: Olya},
             {path: 'howToGetToTheHawaii', component: Cake},
             {path: 'contacts', component: Katya}
         ],

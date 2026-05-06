@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-sonya',
@@ -7,4 +7,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   templateUrl: './sonya.html',
   styleUrl: './sonya.css',
 })
-export class Sonya {}
+export class Sonya {
+  constructor(public router: Router) {}
+}
