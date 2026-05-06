@@ -1,0 +1,7 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+#background-photo {
+    background-image: url("/background_photo.jpg") centre / cover no-repeat;
+}
