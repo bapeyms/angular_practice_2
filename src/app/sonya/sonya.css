@@ -1,0 +1,17 @@
+nav {
+    background-color: #d5d08c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    
+}
+nav a {
+    color: #8d2645;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #610c25;
+}
