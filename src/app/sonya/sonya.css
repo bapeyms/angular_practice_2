@@ -1,5 +1,5 @@
 nav {
-    background-color: #d5d08c;
+    background-color: beige;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,6 +11,8 @@ nav {
 nav a {
     color: #8d2645;
     text-decoration: none;
+    font-weight: bold;
+    font-size: large;
 }
 nav a:hover {
     color: #610c25;
