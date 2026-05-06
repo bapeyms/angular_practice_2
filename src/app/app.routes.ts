@@ -9,9 +9,9 @@ export const routes: Routes = [
         path: '',
         component: Sonya,
         children: [
-            {path: 'olya', component: Olya},
-            {path: 'cake', component: Cake},
-            {path: 'katya', component: Katya}
+            {path: 'marinaHawaiiTravel', component: Olya},
+            {path: 'howToGetToTheHawaii', component: Cake},
+            {path: 'contacts', component: Katya}
         ],
     },
 ];
