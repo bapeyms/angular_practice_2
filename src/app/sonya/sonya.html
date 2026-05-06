@@ -1,8 +1,15 @@
-<header>
-    <nav>
-        <a routerLink="/marinaHawaiiTravel">Marina  Hawaii Travel</a>
-        <a routerLink="/howToGetToTheHawaii">How To Get To The Hawaii</a>
-        <a routerLink="/contacts">Contacts</a>
-    </nav>
-</header>
-<router-outlet></router-outlet>
+<div class="layout">
+    <div id="background-photo"></div>
+    <header>
+        <nav>
+            <a routerLink="/marinaHawaiiTravel">Marina  Hawaii Travel</a>
+            <a routerLink="/howToGetToTheHawaii">How To Get To The Hawaii</a>
+            <a routerLink="/contacts">Contacts</a>
+        </nav>
+    </header>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>
+
