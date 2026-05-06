@@ -9,4 +9,8 @@ import { Router, RouterLink, RouterOutlet } from '@angular/router';
 })
 export class Sonya {
   constructor(public router: Router) {}
+
+  get isHome() :boolean {
+    return this.router.url === '/' || this.router.url === ''
+  }
 }
