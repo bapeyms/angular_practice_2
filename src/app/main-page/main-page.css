@@ -3,5 +3,8 @@
     flex-direction: column;
 }
 #background-photo {
-    background-image: url("/background_photo.jpg") centre / cover no-repeat;
+    background: url("/background_photo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
