@@ -1,15 +1,23 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 nav {
-    background-color: beige;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 50px;
-    
+    border: 3px solid beige;
+    border-radius: 20px;
 }
 nav a {
-    color: #8d2645;
+    color: beige;
     text-decoration: none;
     font-weight: bold;
     font-size: large;
