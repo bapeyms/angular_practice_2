@@ -33,7 +33,6 @@ nav a:hover {
     overflow: hidden;
 }
 #background-photo {
-    background: url("/background_photo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,4 +54,16 @@ nav a:hover {
 }
 .logo:hover {
     transform: scale(1.1);
+}
+.bg-olya {
+    background: url("/background_photo.jpg");
+}
+.bg-marina {
+    background-image: url("/background_photo_2.jpg");
+}
+.bg-katya {
+    background-image: url("/contacts.jpg");
+}
+.bg-cake {
+    background-image: url("/background_3.jpg");
 }
